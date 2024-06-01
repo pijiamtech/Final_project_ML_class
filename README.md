@@ -1,4 +1,4 @@
-# Increase model performance of "StatQuest with Josh Starmer" <br>เป็นโมเดลต้นไม้ตัดสินใจ
+# Increase model performance of "StatQuest with Josh Starmer" เป็นโมเดลต้นไม้ตัดสินใจ
 
 งานนี้เป็นส่วนหนึ่งของวิชา Machine learning ที่มีคำอธิบายประกอบโปรเจ็คสุดท้ายของวิชาคือ ให้เพิ่มประสิทธิภาพของโมเดลที่มีคนอื่นทำไว้ก่อนหน้านี้แล้วโดยวัดผลจากการอธิบายและตัววัดประสิทธิภาพต่างๆ เช่น Accuracy, Precision, Recall, ฯลฯ
 
