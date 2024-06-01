@@ -1,0 +1,45 @@
+drop(cols = 'chol', 'fbs', 'restbp', 'restecg') ดูจาก correlation < 2
+test_size = 0.25 == original
+จูน alpha > 0.001
+         < 0.03   ใช้ alpha ที่ 0.016425
+
+## original test_size = 0.25, alpha = 0.014225
+Precision: 0.7777777777777778
+Recall: 0.8484848484848485
+F1-score: 0.8115942028985507
+Accuracy: 0.8266666666666667
+
+evaluate:
+Precision: 0.9230769230769231   (Max Precision)
+Recall: 0.7272727272727273
+F1-score: 0.8135593220338984
+Accuracy: 0.8533333333333334
+
+--test_size = 0.2 ,alpha ที่ 0.016425
+Precision: 0.9
+Recall: 0.75
+F1-score: 0.8181818181818182
+Accuracy: 0.8666666666666667   (Max Accuracy)
+
+
+--alpha = 0.021031,0.036800
+Precision: 0.8666666666666667
+Recall: 0.7878787878787878
+F1-score: 0.8253968253968254
+Accuracy: 0.8533333333333334
+
+
+--alpha = 0.039345
+Precision: 0.6888888888888889
+Recall: 0.9393939393939394   (Max recall)
+F1-score: 0.7948717948717948
+Accuracy: 0.7866666666666666
+
+
+**feature scailing ไม่มีผลต่อ model**
+**ตัดตัวแปรที่มี correlation < 3 ไม่มีผลต่อ result**
+
+..random_state เหมือนเดิม..
+..ความลับของจักรวาล!ตัดตัวแปรไม่มีผล..
+
+//หลักๆก็ขึ้นอยู่กับ cv, alpha//
