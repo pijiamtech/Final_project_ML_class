@@ -5,7 +5,7 @@
 ## **Files** 
 **processed.cleveland.data** ข้อมูลดิบ<br>
 **statquest_classification_trees_in_python.ipynb** โมเดลเริ่มต้น<br>
-**statquest_classification_trees_in_python_final_increase.ipynb** โมเดลที่ถูกพัฒน่<br>
+**statquest_classification_trees_in_python_final_increase.ipynb** โมเดลที่ถูกพัฒนา<br>
 **Result.txt** ผลลัพธ์จากการปรับพารามิเตอร์
 
 ## เครดิต
